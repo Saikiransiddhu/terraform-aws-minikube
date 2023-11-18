@@ -7,7 +7,6 @@ module "minikube" {
   # ~ --> home directory you should have daws.pub in your home
   ssh_public_key = "~/daws.pub"
   aws_subnet_id = "subnet-0a98ad411cda9a460" # any public subnet in any vpc, I am using default vpc network
-  ami_image_id = "ami-b81dbfc5"
   hosted_zone = "saikirandevops.cloud"
   hosted_zone_private = false
 
